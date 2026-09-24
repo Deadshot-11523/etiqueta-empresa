@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['empresa'])) {
     $nombres    = $_POST['nombre'];
     $cantidades = $_POST['cantidad'];
 } else {
-    header("Location: Princ.html");
+    header("Location: index.html");
     exit();
 }
 ?>
